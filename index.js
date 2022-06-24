@@ -18,9 +18,11 @@ if (operator == "+") {
 } else if (operator == "*") {
   result = number1 * number2;
   alert(`Result: ${number1} ${operator} ${number2} = ${result}`);
-} else {
+} else if (operator == "/") {
   result = number1 / number2;
   alert(`Result: ${number1} ${operator} ${number2} = ${result}`);
+} else {
+  alert("Invalid Operator");
 }
 
 console.log(`${number1} ${operator} ${number2} = ${result}`);
